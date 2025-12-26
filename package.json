@@ -1,0 +1,30 @@
+{
+  "name": "prompt-battles",
+  "version": "0.1.0",
+  "description": "LLM-powered tank battle game where you prompt your way to victory",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@hackernoon/pixel-icon-library": "^1.0.6",
+    "@mlc-ai/web-llm": "^0.2.80",
+    "phaser": "^3.80.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/api": "^2.1.1",
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "@webgpu/types": "^0.1.68",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.3"
+  }
+}
